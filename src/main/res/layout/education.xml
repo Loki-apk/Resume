@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Education">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="46dp"
+        android:text="Eductional Records"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:showDividers="middle"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow android:background="@drawable/header_shape">
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Institute"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Studied"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Scored"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Year"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/cell_shape">
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Parul University"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3rd year"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7.50 CGPA"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2020-23"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/cell_shape">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lancers Army School"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="HSC"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="78.4%"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2020"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:background="@drawable/cell_shape">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Shree Vashistha Vidhyalya"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SSC"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="74.2%"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2018"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+        </TableRow>
+    </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

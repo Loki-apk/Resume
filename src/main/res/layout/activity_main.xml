@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/explore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="310dp"
+            android:text="Explore"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/bintro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bintro"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Introduction"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bexpert"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/explore" />
+
+        <Button
+            android:id="@+id/bexpert"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="106dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Education"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bedu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bintro" />
+
+        <Button
+            android:id="@+id/bedu"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Skills"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bintern"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bexpert" />
+
+        <Button
+            android:id="@+id/bintern"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Internship"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bachiv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bedu" />
+
+        <Button
+            android:id="@+id/bachiv"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Achivements"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bseminar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bintern" />
+
+        <Button
+            android:id="@+id/bseminar"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Workshops"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bexc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bachiv" />
+
+        <Button
+            android:id="@+id/bexc"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Extracurricular"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bpi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bseminar" />
+
+        <Button
+            android:id="@+id/bpi"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/button"
+            android:text="Personal Interest"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/bresume"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bexc" />
+
+        <Button
+            android:id="@+id/bresume"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="106dp"
+            android:backgroundTint="@color/button"
+            android:text="Complete resume"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bpi" />
+
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="24dp"
+            android:text="I hereby declare that all of the above mentioned information is correct"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bresume" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

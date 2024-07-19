@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lokeshwar Jakhar</string>
+    <string name="achi">
+        &#8226; Stood 3rd in Android App Development competition held at Parul University.\n\n
+        &#8226; Secured 32nd position in Speech Master 2, a state level speaking competition at Parul University.\n\n
+        &#8226; Participated in the state level competition of Speed Skating.
+    </string>
+    <string name="intern1">Instructing students in C language programming from the batch of 2021 to 2025.
+        Developed and delivered engaging lessons to facilitate comprehension and mastery of foundational programming concepts.</string>
+    <string name="intern2">Contributed to the Sales and Marketing team by effectively implementing strategies to generate revenue.
+        Achieved a sales figure of 1.75L through various marketing initiatives and sales efforts.</string>
+    <string name="certi">Click here to see the certificate</string>
+    <string name="tech">
+        &#8226; C\n
+        &#8226; C++\n
+        &#8226; Python\n
+        &#8226; Kotlin\n
+        &#8226; React JS\n
+        &#8226; SQL\n
+        &#8226; XML\n
+        &#8226; PHP
+    </string>
+    <string name="soft">
+        &#8226; Hindi\n
+        &#8226; English\n
+        &#8226; Deutsch\n
+        &#8226; Gujarati
+    </string>
+    <string name="intro">An enthusiast Application Developer at an intermediate level pursuing BTech in Computer Science and Engineering, trying to learn in every possible way.</string>
+    <string name="details">
+        &#8226; DOB: 21/11/2002\n
+        &#8226; Contact no: 8799104236\n
+        &#8226; Email:\nconnecttolokeshwar@gmail.com
+    </string>
+</resources>

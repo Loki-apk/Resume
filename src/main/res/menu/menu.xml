@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/mhome" ></item>
+    <item
+        android:title="Introduction"
+        android:id="@+id/mintro"></item>
+    <item
+        android:title="Education"
+        android:id="@+id/medu"></item>
+    <item
+        android:title="Skills"
+        android:id="@+id/mskill"></item>
+    <item
+        android:title="Internship"
+        android:id="@+id/mintern"></item>
+    <item
+        android:title="Achivements"
+        android:id="@+id/machive"></item>
+    <item
+        android:title="Workshops"
+        android:id="@+id/mseminar"></item>
+    <item
+        android:title="Extracurricular"
+        android:id="@+id/mextra"></item>
+    <item
+        android:title="Resume"
+        android:id="@+id/mresume"></item>
+
+</menu>
